@@ -15,7 +15,7 @@ This project uses some DDD concepts, adapted to the scope of the project, I made
 ```
 # Run in root of project
 
-docker-compose up -d
+docker compose up -d
 ```
 ### Without Docker
 ```

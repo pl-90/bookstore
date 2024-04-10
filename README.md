@@ -138,6 +138,15 @@ To access this API, you need to include the following headers in each request:
 
     Updates an existing store by ID.
 
+  Example payload:
+    ```json
+    {
+        "name": "Bookstore Name 2",
+        "address": "123 Main St, City",
+        "active": false
+    }
+    ```
+
 - **DELETE** `/api/stores/delete/{id}`
 
     Deletes a store by ID.
